@@ -1,0 +1,1230 @@
+/* 
+THEME NAME: CV Redrum Single
+THEME URI: https://www.lunarcentric.com
+VERSION: 1
+AUTHOR: <a href="https://www.lunarcentric.com</a>
+*/
+
+.wrapper {
+	z-index: 250;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+	-webkit-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	-moz-transform: scale(1.01, .85);
+	transform: scale(1, 1);
+
+}
+
+.bread {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+
+}
+
+HTML,
+BODY {
+	background-color: #000000;
+	color: #FFFFFF;
+font-size: 1em;
+
+	font-family: 'Jura', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+
+}
+.pbox{
+	width:100%;
+}
+
+.empbox{
+    width:100%;
+}
+
+h1 {
+	font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #FFFFFF;
+    font-size: 2em;
+
+}
+
+h2 {
+	font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #00d400;
+    font-size: 1.5em;
+
+}
+
+h3 {
+	font-family: 'Jura', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+    font-size: 1em;
+
+}
+
+h4 {
+	font-family: 'Jura', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+    font-size: 0.5em;
+
+}
+
+A:focus {
+	outline: medium none #000000;
+
+}
+
+a:link {
+	color: #7fffd4;
+	font-size: inherit;
+	text-align: justify;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #fffacd;
+}
+
+a:hover {
+	color: #e2a50a;
+}
+
+a:active {
+	color: #ffd700;
+}
+/* Page Formating_end */
+/* Class Properties */
+
+li:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.vcfimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/vcf.png) no-repeat;
+	margin-top: 10px;
+	width: 39px;
+	height: 70px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.pdfimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/pdf.png) no-repeat;
+	margin-top: 10px;
+	width: 42px;
+	height: 65px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.printimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/print.png) no-repeat;
+	margin-top: 10px;
+	width: 42px;
+	height: 65px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.emailimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/email_A.png) no-repeat;
+	margin-top: 10px;
+	width: 40px;
+	height: 68px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.emailimg:hover {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/email_B.png) no-repeat;
+	margin-top: 10px;
+	width: 39px;
+	height: 70px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.w3cimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/w3c.png) no-repeat;
+	margin-top: 10px;
+	width: 34px;
+	height: 53px;
+	white-space: nowrap;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.cssimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/css.png) no-repeat;
+	margin-top: 10px;
+	width: 34px;
+	height: 53px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wcagimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/waiaa.png) no-repeat;
+	margin-top: 10px;
+	width: 34px;
+	height: 53px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mcfimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/2x/mfcicon.png) no-repeat;
+	margin-top: 10px;
+	width: 45px;
+	height: 44px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.namtit {
+	position: absolute;
+	top: 5px;
+	max-height: 50px;
+	background-color: rgb(0, 0, 0);
+	opacity: .9;
+
+	width: 100%;
+}
+
+.QR {
+	text-align: center;
+}
+
+.a_title {
+	color: #ffffff;
+}
+/*logo start*/
+
+.logotext {
+	animation: colorchange 40s linear infinite;
+	/* animation-name followed by duration in seconds*/
+	
+	-webkit-animation: colorchange 40s linear infinite;
+	/* Chrome and Safari */
+	
+	-moz-animation: colorchange 40s linear infinite;
+	-o-animation: colorchange 40s linear infinite;
+	text-align: left;
+	float: left;
+}
+
+.tmark {
+	animation: colorchange 20s linear infinite;
+	/* animation-name followed by duration in seconds*/
+	
+	-webkit-animation: colorchange 20s linear infinite;
+	/* Chrome and Safari */
+	
+	-moz-animation: colorchange 20s linear infinite;
+	-o-animation: colorchange 20s linear infinite;
+	text-align: left;
+	float: left;
+}
+/* set the default transition time */
+
+@keyframes colorchange {
+	0%, 100% {
+		color: #03C9A9
+	}
+	5% {
+		color: #4ADD8C
+	}
+	10% {
+		color: #2ECCB0
+	}
+	15% {
+		color: #BF6EE0
+	}
+	20% {
+		color: #708080
+	}
+	25% {
+		color: #16a085
+	}
+	30% {
+		color: #00FF7F
+	}
+	35% {
+		color: #1978D4
+	}
+	40% {
+		color: #AA00AA
+	}
+	45% {
+		color: #807D67
+	}
+	50% {
+		color: #E6CC22
+	}
+	55% {
+		color: #FF4500
+	}
+	60% {
+		color:  #E63022
+	}
+	65% {
+		color: #E0FFFF
+	}
+	70% {
+		color: #E4F1FE
+	}
+	75% {
+		color: #C9F227
+	}
+	80% {
+		color: #F9690E
+	}
+	85% {
+		color: #FF0000
+	}
+	90% {
+		color: #8DB0BB
+	}
+	95% {
+		color: #8DB0BB
+	}
+}
+
+@-webkit-keyframes colorchange
+/* Safari and Chrome - necessary duplicate */
+
+{
+	0%, 100% {
+color: #03C9A9
+	}
+	5% {
+		color: #4ADD8C
+	}
+	10% {
+		color: #2ECCB0
+	}
+	15% {
+		color: #BF6EE0
+	}
+	20% {
+		color: #708080
+	}
+	25% {
+		color: #16a085
+	}
+	30% {
+		color: #00FF7F
+	}
+	35% {
+		color: #1978D4
+	}
+	40% {
+		color: #AA00AA
+	}
+	45% {
+		color: #807D67
+	}
+	50% {
+		color: #E6CC22
+	}
+	55% {
+		color: #FF4500
+	}
+	60% {
+		color:  #E63022
+	}
+	65% {
+		color: #E0FFFF
+	}
+	70% {
+		color: #E4F1FE
+	}
+	75% {
+		color: #C9F227
+	}
+	80% {
+		color: #F9690E
+	}
+	85% {
+		color: #FF0000
+	}
+	90% {
+		color: #8DB0BB
+	}
+	95% {
+		color: #8DB0BB
+	}
+}
+
+@-moz-keyframes colorchange
+/* Firefox */
+{
+	0%, 100% {
+color: #03C9A9
+	}
+	5% {
+		color: #4ADD8C
+	}
+	10% {
+		color: #2ECCB0
+	}
+	15% {
+		color: #BF6EE0
+	}
+	20% {
+		color: #708080
+	}
+	25% {
+		color: #16a085
+	}
+	30% {
+		color: #00FF7F
+	}
+	35% {
+		color: #1978D4
+	}
+	40% {
+		color: #AA00AA
+	}
+	45% {
+		color: #807D67
+	}
+	50% {
+		color: #E6CC22
+	}
+	55% {
+		color: #FF4500
+	}
+	60% {
+		color:  #E63022
+	}
+	65% {
+		color: #E0FFFF
+	}
+	70% {
+		color: #E4F1FE
+	}
+	75% {
+		color: #C9F227
+	}
+	80% {
+		color: #F9690E
+	}
+	85% {
+		color: #FF0000
+	}
+	90% {
+		color: #8DB0BB
+	}
+	95% {
+		color: #8DB0BB
+	}
+}
+@-o-keyframes colorchange
+/* Opera */
+
+{
+	0%, 100% {
+color: #03C9A9
+	}
+	5% {
+		color: #4ADD8C
+	}
+	10% {
+		color: #2ECCB0
+	}
+	15% {
+		color: #BF6EE0
+	}
+	20% {
+		color: #708080
+	}
+	25% {
+		color: #16a085
+	}
+	30% {
+		color: #00FF7F
+	}
+	35% {
+		color: #1978D4
+	}
+	40% {
+		color: #AA00AA
+	}
+	45% {
+		color: #807D67
+	}
+	50% {
+		color: #E6CC22
+	}
+	55% {
+		color: #FF4500
+	}
+	60% {
+		color:  #E63022
+	}
+	65% {
+		color: #E0FFFF
+	}
+	70% {
+		color: #E4F1FE
+	}
+	75% {
+		color: #C9F227
+	}
+	80% {
+		color: #F9690E
+	}
+	85% {
+		color: #FF0000
+	}
+	90% {
+		color: #8DB0BB
+	}
+	95% {
+		color: #8DB0BB
+	}
+}
+/*logo end*/
+
+.vc {
+	z-index: 2;
+	max-height: 100%;
+	max-width: 100%;
+	margin-bottom: 1px;
+	font-size: 1em;
+
+	background-color: rgb(0, 0, 0);
+	opacity: .9;
+	border-left: .7mm solid #D3D3D3;
+	-webkit-border-radius: 15px 0px 6% 15px;
+	-moz-border-radius: 15px 0px 5px 15px;
+	border-radius: 15px 0px 10px 5px;
+
+}
+
+.adr:hover {
+	z-index: 2;
+	max-height: 100%;
+	max-width: 100%;
+	margin-bottom: 1px;
+	font-size: 1em;
+
+	background-color: rgb(0, 0, 0);
+	opacity: .9;
+	border-left: .7mm solid #f50057;
+	-webkit-border-radius: 15px 0px 6% 15px;
+	-moz-border-radius: 15px 0px 5px 15px;
+	border-radius: 15px 0px 10px 5px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+
+}
+
+.vc:hover {
+	z-index: 2;
+	max-height: 100%;
+	max-width: 100%;
+	margin-bottom: 1px;
+	font-size: 1em;
+
+	background-color: rgb(0, 0, 0);
+	opacity: .9;
+	border-left: .7mm solid #f50057;
+	-webkit-border-radius: 15px 0px 6% 15px;
+	-moz-border-radius: 15px 0px 5px 15px;
+	border-radius: 15px 0px 10px 5px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+
+}
+
+
+.mail:hover {
+	z-index: 2;
+	max-height: 100%;
+	max-width: 100%;
+	margin-bottom: 1px;
+	font-size: 1em;
+
+	background-color: rgb(0, 0, 0);
+	opacity: .9;
+	border-left: .7mm solid #09e20d;
+	-webkit-border-radius: 15px 0px 6% 15px;
+	-moz-border-radius: 15px 0px 5px 15px;
+	border-radius: 15px 0px 10px 5px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+
+}
+
+.tel:hover {
+	z-index: 2;
+	max-height: 100%;
+	max-width: 100%;
+	margin-bottom: 1px;
+	font-size: 1em;
+
+	background-color: rgb(0, 0, 0);
+	opacity: .9;
+	border-left: .7mm solid #ffff00;
+	-webkit-border-radius: 15px 0px 6% 15px;
+	-moz-border-radius: 15px 0px 5px 15px;
+	border-radius: 15px 0px 10px 5px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+/* Class Properties_end */
+/* Divisional Content Styling*/
+
+.doc_bar {
+	z-index: 400;
+	float: right;
+	position: absolute;
+	right: 0px;
+	margin-top: -8%;
+	padding-top: 20%;
+	padding-right: 1%;
+}
+
+@-moz-keyframes pulse {
+	0%, 100% {
+		-moz-filter: hue-rotate(0deg);
+	}
+	50% {
+		-moz-filter: brightness(10) hue-rotate(180deg) saturate(10);
+	}
+}
+
+@-o-keyframes pulse {
+	0%, 100% {
+		-o-filter: hue-rotate(0deg);
+	}
+	50% {
+		-o-filter: brightness(10) hue-rotate(180deg) saturate(10);
+	}
+}
+
+@keyframes pulse {
+	0%, 100% {
+		filter: hue-rotate(0deg);
+	}
+	50% {
+		filter: brightness(10) hue-rotate(180deg) saturate(10);
+	}
+}
+
+@-webkit-keyframes pulse {
+	0%, 100% {
+		-webkit-filter: hue-rotate(0deg);
+	}
+	50% {
+		-webkit-filter: brightness(10) hue-rotate(180deg) saturate(10);
+	}
+}
+
+.contact {
+	color: #ffffff;
+}
+
+.content_table {
+	padding: 1%;
+	table-layout: auto;
+}
+
+.A3 {
+	width: 100%;
+	max-width: 40%;
+	font-size: 70%;
+	padding-top: 8.5%;
+	top: 20%;
+	position: absolute;
+	float: left;
+}
+
+.image1_cc {
+	left: 0px;
+	margin-left: -250px;
+	position: absolute;
+	width: 100%;
+	max-width: 12in;
+	min-width: 8in;
+	z-index: 1;
+
+	background-color: #D3D3D3;
+}
+
+.image1_view {
+
+}
+
+IMG {
+	border: medium none #000000;
+
+}
+
+.head {
+	font-size: 1em;
+
+	text-align: right;
+	width: 100%;
+}
+
+.main {
+	text-align: left;
+	height: 100%;
+	width: 100%;
+
+	z-index: -1;
+	min-height: 3in;
+	max-height: 6in;
+}
+
+.main:hover {
+	-webkit-animation: glitch ease-in 300ms 1;
+	-moz-animation: glitch ease-in 300ms 1;
+	-o-animation: glitch ease-in 300ms 1;
+	animation: glitch ease-in 300ms 1;
+}
+
+.profile {
+	font-size: 1em;
+
+	text-align: left;
+	margin-right: 8%;
+}
+
+.education {
+	font-size: 1em;
+
+	margin-right: 8%;
+	text-align: left;
+}
+
+.employment {
+	float: left;
+	font-size: 1em;
+	padding-left: 1em;
+	width: 100%;
+	height: 100%;
+	max-height: 550px;
+	min-height: 160px;
+	overflow-y: scroll;
+}
+
+.A1 {
+	top: 0px;
+	z-index: -10;
+	position: absolute;
+	float: left;
+	white-space: nowrap;
+
+}
+
+
+
+.B1 {
+	top: 1mm;
+	right: 2%;
+	width: 20%;
+	height: 100px;
+	max-height: 100px;
+	z-index: 2;
+	position: absolute;
+	float: right;
+}
+
+@-moz-keyframes glitch {
+	0%, 100% {
+		-moz-filter: hue-rotate(0deg);
+	}
+	20% {
+		-moz-transform: skewX(-5deg) skewY(-2deg)
+	}
+	50% {
+		-moz-filter: brightness(10) blur(10px) hue-rotate(180deg) saturate(10);
+	}
+}
+
+@-o-keyframes glitch {
+	0%, 100% {
+		-o-filter: hue-rotate(0deg);
+	}
+	20% {
+		-o-transform: skewX(-5deg) skewY(-2deg)
+	}
+	50% {
+		-o-filter: brightness(10) blur(10px) hue-rotate(180deg) saturate(10);
+	}
+}
+
+@keyframes glitch {
+	0%, 100% {
+		filter: hue-rotate(0deg);
+	}
+	20% {
+		transform: skewX(-5deg) skewY(-2deg)
+	}
+	50% {
+		filter: brightness(10) blur(10px) hue-rotate(180deg) saturate(10);
+	}
+}
+
+@-webkit-keyframes glitch {
+	0%, 100% {
+		-webkit-filter: hue-rotate(0deg);
+	}
+	20% {
+		-webkit-transform: skewX(-5deg) skewY(-2deg)
+	}
+	50% {
+		-webkit-filter: brightness(10) blur(10px) hue-rotate(180deg) saturate(10);
+	}
+}
+
+.A2 {
+	z-index: 100;
+	width: 50%;
+	margin-left: 2%;
+	margin-right: auto;
+	position: absolute;
+	float: left;
+	padding-top: 4%;
+	-webkit-animation: pulse ease-in 30s infinite;
+	-moz-animation: pulse ease-in 30s infinite;
+	-o-animation: pulse ease-in 30s infinite;
+	animation: pulse ease-in 30s infinite;
+
+}
+
+.A2:hover {
+	z-index: 100;
+	width: 50%;
+	margin-left: 2%;
+	margin-right: auto;
+	position: absolute;
+	float: left;
+	padding-top: 4%;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-o-animation: none;
+	animation: none;
+
+}
+
+.mainfill {
+	font-size: 1em;
+
+	max-height: 100%;
+	max-width: 8in;
+
+	float: right;
+	z-index: -1;
+	border-top: 4px solid #D3D3D3;
+	border-bottom: 4px solid #D3D3D3;
+	border-left: .5px solid #D3D3D3;
+	border-right: .5px solid #D3D3D3;
+	-webkit-border-radius: 0px 15px 6% 15px;
+	-moz-border-radius: 0px 15px 6% 15px;
+	border-radius: 0px 15px 6% 15px;
+	padding-right: 10%;
+	background-color: rgb(255, 165, 155);
+	opacity: .15;
+}
+
+.mainfill:hover {
+	font-size: 1em;  
+	max-height: 100%;
+	max-width: 8in;
+
+	float: right;
+	z-index: -1;
+	border-top: 4px solid #D3D3D3;
+	border-bottom: 4px solid #D3D3D3;
+	border-left: .5px solid #D3D3D3;
+	border-right: .5px solid #D3D3D3;
+	-webkit-border-radius: 0px 15px 6% 15px;
+	-moz-border-radius: 0px 15px 6% 15px;
+	border-radius: 0px 15px 6% 15px;
+	padding-right: 10%;
+	background-color: black;
+	opacity: 0.9;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.B2 {
+	width: 30%;
+	height: 200px;
+	padding-left: 50%;
+	margin-left: 10%;
+	position: absolute;
+	float: left;
+	margin-top: -2%;
+	padding-top: 8%;
+	padding-bottom: 2%;
+	z-index: 1;
+	-webkit-animation: pulse ease-in 32s infinite;
+	-moz-animation: pulse ease-in 32s infinite;
+	-o-animation: pulse ease-in 32s infinite;
+	animation: pulse ease-in 32s infinite;
+
+}
+
+.B2:hover {
+	width: 30%;
+	height: 200px;
+	padding-left: 50%;
+	margin-left: 10%;
+	position: absolute;
+	float: left;
+	margin-top: -2%;
+	padding-top: 8%;
+	padding-bottom: 2%;
+	z-index: 1;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-o-animation: none;
+	animation: none;
+
+}
+
+.side {
+	height: 100%;
+	max-height: 490px;
+	min-height: 160px;
+	overflow-y: auto;
+	float: left;
+	font-size: 90%;
+}
+
+.side:hover {
+	-webkit-animation: glitch ease-in 300ms 1;
+	-moz-animation: glitch ease-in 300ms 1;
+	-o-animation: glitch ease-in 300ms 1;
+	animation: glitch ease-in 300ms 1;
+}
+
+.sidefill {
+	padding-right: 6%;
+	margin-right: 6%;
+	max-width: 8in;
+	float: right;
+	z-index: -1;
+	border-top: 4px solid #D3D3D3;
+	border-bottom: 4px solid #D3D3D3;
+	border-left: .5px solid #D3D3D3;
+	border-right: .5px solid #D3D3D3;
+	-webkit-border-radius: 0px 15px 6% 15px;
+	-moz-border-radius: 0px 15px 6% 15px;
+	border-radius: 0px 15px 6% 15px;
+	background-color: rgb(255, 165, 155);
+	opacity: .15;
+	width: 100%;
+	padding-left: 5%;
+	-webkit-animation: pulse ease-in 4s infinite;
+	-moz-animation: pulse ease-in 4s infinite;
+	-o-animation: pulse ease-in 4s infinite;
+	animation: pulse ease-in 4s infinite;
+
+}
+
+.sidefill:hover {
+	max-width: 8in;
+	float: right;
+	z-index: -1;
+	border-top: 4px solid #D3D3D3;
+	border-bottom: 4px solid #D3D3D3;
+	border-left: .5px solid #D3D3D3;
+	border-right: .5px solid #D3D3D3;
+	-webkit-border-radius: 0px 15px 6% 15px;
+	-moz-border-radius: 0px 15px 6% 15px;
+	border-radius: 0px 15px 6% 15px;
+	background-color: black;
+	opacity: 0.9;
+	width: 100%;
+	padding-left: 5%;
+
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-o-animation: none;
+	animation: none;
+}
+
+.background {
+	background: url("https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/background.png") repeat scroll 100% 100% transparent;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -3;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.foreground {
+	background: url("https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/foreground.png") repeat scroll 100% 110% transparent;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -2;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.static_background {
+	background: url("https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/static_background.png")no-repeat center center fixed transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+.left_foot {
+	padding-bottom: 10%;
+}
+
+.right_foot {
+	padding-top: 60%;
+	margin-top: -8%;
+}
+
+.a_title {
+	position: absolute;
+	height: 50px;
+	float: left;
+	text-decoration: underline;
+	background-color: rgb(0, 0, 0);
+	opacity: .9;
+	top: 42px;
+}
+
+.a_content {
+	margin-top: 100px;
+}
+
+.a_header {
+	white-space: nowrap;
+}
+
+.whitel {
+	color: #ffffff;
+}
+/* Media Query System */
+
+@media all and (max-width: 1000px) {
+	.wrapper,
+	.wrapper {
+		z-index: 250;
+		width: 100%;
+		height: 100%;
+		max-width: 100%;
+		max-height: 100%;
+		position: relative;
+		-ms-transform: scale(.75, .7);
+		-o-transform: scale(.75, .7);
+		-webkit-transform: scale(.75, .7);
+		-moz-transform: scale(.79, .50);
+		transform: scale(.75, .7);
+			}
+	.head {
+		font-size: 1em;
+
+	}
+	.main {
+		font-size: 1em;
+
+	}
+	.profile {
+		font-size: 1em;
+
+	}
+	.education {
+		font-size: 1em;
+
+	}
+	.employment {
+		font-size: 1em;
+
+
+	}
+
+	.vc {
+		font-size: 1em;  
+		white-space: nowrap;
+		overflow: visible;
+	}
+	.vcfimg {
+		background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/vcf.png) no-repeat;
+		width: 19px;
+		height: 34px;
+		display: block;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.pdfimg {
+		background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/PDF.png) no-repeat;
+		width: 20px;
+		height: 34px;
+		display: block;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.emailimg {
+		background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/email_A.png) no-repeat;
+		width: 20px;
+		height: 34px;
+		display: block;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.emailimg:hover {
+		background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/email_B.png) no-repeat;
+		width: 19px;
+		height: 34px;
+		display: block;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+.w3cimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/w3c.png) no-repeat;
+	margin-top: 10px;
+	width: 17px;
+	height: 26px;
+	white-space: nowrap;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.cssimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/css.png) no-repeat;
+	margin-top: 10px;
+	width: 17px;
+	height: 26px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wcagimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/waiaa.png) no-repeat;
+	margin-top: 10px;
+	width: 17px;
+	height: 26px;
+	display: block;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mcfimg {
+	background: url(https://www.lunarcentric.com/wp-content/themes/cv_redrum_single/images/MIME/mfcicon.png) no-repeat;
+	margin-top: 10px;
+	width: 25px;
+	height: 24px;
+	display: block;
+}
+
+	.namtit {
+		position: absolute;
+		top: 5px;
+		max-height: 50px;
+		background-color: rgb(0, 0, 0);
+		opacity: .9;
+	
+		width: 100%;
+	}
+}
+/* Media Query System_end */
+
+.jspContainer,
+.jspPane,
+.jspVerticalBar,
+.jspTrack {
+	z-index: 100;
+}

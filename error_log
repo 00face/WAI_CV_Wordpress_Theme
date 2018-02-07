@@ -1,0 +1,2 @@
+[10-Jan-2018 15:16:54 America/New_York] PHP Fatal error:  Call to undefined function bloginfo() in /home/lunaqowu/public_html/wp-content/themes/cv_redrum_single/index.php on line 17
+[10-Jan-2018 16:48:24 America/New_York] PHP Fatal error:  Call to undefined function bloginfo() in /home/lunaqowu/public_html/wp-content/themes/cv_redrum_single/index.php on line 17

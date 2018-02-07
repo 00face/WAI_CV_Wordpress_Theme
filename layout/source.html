@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>CSS Lightbox</title>
+		<style type="text/css">
+			html, body { height: 100%; overflow: hidden; width: 100%; margin: 0; padding: 0; }
+			body { overflow-y: auto; }
+			.lightbox { left: -999em; position: absolute; }
+			.lightbox { left: -999em; position: absolute; }
+			.lightbox:target { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
+			.lightbox:target .close a { background: rgba(0, 0, 0, 0.75); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+			.close span { color: #FFFFFF; font-size: 2em; text-indent: 0; position: absolute; right: 0.5em; top: 0.5em; }
+			.close {text-indent: -999em;}
+			.lightbox:target div { background: #FFFFFF; position: absolute; left: 50%; top: 50%; z-index: 99; }
+			.w60p { margin-left: -30%; width: 60%; } .w300 { margin-left: -150px; width: 300px; } .w640 { margin-left: -320px; width: 640px; }
+			.h60 { height: 60px; margin-top: -30px; } .h400 { height: 400px; margin-top: -200px; } .h386 { height: 386px; margin-top: -193px; }
+			.scroll { overflow-y: scroll; padding: 0 1em; }
+			.boxfocus { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
+			.boxfocus div {	background: #FFFFFF; position: absolute; left: 50%; top: 50%; z-index: 99; }
+			.boxfocus .close a { background-image: url('trans.png'); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+		</style>
+		<script type="text/javascript">
+		<!--
+			/*@cc_on @if (@_jscript_version > 5.6)
+			function bootup(){
+				var tds = document.getElementsByTagName("a"); lightbox();
+				for( var x=0; x < tds.length; x++ ){tds[x].onclick = function(){setTimeout(lightbox, 1);};}
+			}
+			function lightbox(){
+				var counted = document.getElementsByTagName("div");
+				for( var x=0; x < counted.length; x++ ){ if ( counted[x].className == "boxfocus" ) { counted[x].className = "lightbox"; } }
+				if (location.hash.substr(1) == "") {} else { document.getElementById(location.hash.substr(1)).className = "boxfocus"; }
+			}
+			window.onload=bootup;
+			@end @*/
+		// -->
+		</script>
+	</head>
+	<body>
+		<h1>CSS Lightbox</h1>
+		<p>You can use this fantastic solution to create lightboxes for not just <a href="#image" title="Image Lightbox">images</a> but rich, semantic <a href="#content" title="Content Lightbox">content</a> and <a href="#video" title="Video Lightbox">videos</a> as well!</p>
+		<div class="lightbox" id="image">
+			<div class="w300 h60">
+				<img src="logo.jpg" alt="Six Revisions" height="60" width="300" />
+			</div>
+			<p class="close"><a href="#" title="Close This Image Lightbox">Close <span>X</span></a></p>
+		</div>
+		<div class="lightbox" id="content">
+			<div class="w60p h400 scroll">
+				<h2>Your Content Goes Here!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis felis suscipit tellus euismod varius quis ut nibh. Curabitur in ante nunc, vitae venenatis dui. Phasellus egestas ipsum in ipsum suscipit volutpat. Etiam eu nibh eros. Sed dolor ligula, tincidunt vitae elementum vitae, pharetra vitae eros. Cras risus lectus, aliquam vitae condimentum id, feugiat eu nisi. Cras eu sem erat, eget ultrices enim. Suspendisse feugiat fringilla massa at convallis. Quisque tincidunt, diam quis facilisis volutpat, purus orci rutrum leo, id dapibus tellus ante vel mauris. Quisque posuere, tortor in laoreet hendrerit, ipsum sem molestie nunc, et ultrices erat nulla sed dui. Donec sit amet mi sapien. Maecenas fermentum nulla eu ligula dictum id elementum nisi commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ac massa quam. Suspendisse nibh nibh, condimentum a porttitor a, placerat in lorem. Sed sit amet elit eget magna condimentum posuere volutpat a neque.</p>
+				<p>Sed dignissim viverra neque, sit amet lobortis elit luctus ac. Proin placerat varius quam eu molestie. Pellentesque vel ante quis metus auctor convallis. Duis mattis risus ac tortor luctus in semper sem fringilla. Vestibulum consectetur iaculis risus vel rutrum. Nam scelerisque gravida felis quis egestas. Mauris vehicula nisl quis felis bibendum nec placerat neque dictum. Donec erat tortor, venenatis id consequat ut, dictum nec enim. Ut ultrices eros vel diam pulvinar aliquam. Phasellus non nisi vitae ligula imperdiet dapibus eleifend sed neque. Morbi gravida dignissim turpis eu auctor. Morbi pellentesque urna vitae nunc dictum elementum. Aliquam erat volutpat. Aenean urna nibh, pretium ut accumsan ut, luctus eget nibh. Nulla sollicitudin fermentum turpis eget rutrum. Integer dignissim dui turpis. Morbi metus libero, suscipit blandit dignissim aliquam, sodales non mi. Proin id augue odio, sit amet gravida mauris.</p>
+				<p>Proin a dignissim orci. Nam nec urna nisi, in blandit lorem. Nulla cursus ornare rhoncus. Nunc lectus orci, tristique et aliquet sed, venenatis et felis. Nullam sodales orci at est pharetra nec aliquam risus scelerisque. Nullam varius, nisi ut sagittis scelerisque, nulla mauris tempus magna, quis pellentesque sem erat a diam. Cras lectus est, dictum ut consequat ut, adipiscing sit amet sapien. Curabitur tincidunt varius gravida. Quisque augue sem, commodo sed molestie venenatis, cursus vehicula lorem. Praesent scelerisque, tortor a euismod malesuada, ipsum ligula semper odio, ultricies molestie sapien metus condimentum felis. Vivamus hendrerit gravida interdum. Fusce at purus eu orci laoreet lobortis. Aliquam cursus mi at tellus fringilla dictum. Sed nec libero dolor. Integer nec neque at mi malesuada tincidunt.</p>
+			</div>
+		<p class="close"><a href="#" title="Close This Content Lightbox">Close <span>X</span></a></p>
+		</div>
+		<div class="lightbox" id="video">
+			<div class="w640 h386">
+				<object type="application/x-shockwave-flash" width="640" height="385" data="http://www.youtube.com/v/bsGEWHNJ3s8"><param name="movie" value="http://www.youtube.com/v/bsGEWHNJ3s8" /></object>
+			</div>
+			<p class="close"><a href="#" title="Close This Video Lightbox">Close <span>X</span></a></p>
+		</div>
+	</body>
+</html>
