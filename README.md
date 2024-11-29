@@ -11,7 +11,7 @@ WordPress Install
 
 ## Authors
 
-* **Armando Cornaglia** - [lunarcentric](https://github.com/thefacebiters)
+* **Armando Cornaglia** - [HyaenaHyaena](https://github.com/thefacebiters)
 
 ## License
 
